@@ -26,9 +26,9 @@ export default {
         nodes: [],
         links: []
       },
-      names: ['企业', '贸易类型', '地区', '国家'],
-      labels: ['Enterprise', 'Type', 'Region', 'Country'],
-      linkTypes: ['', 'type', 'locate', 'export']
+      names: ['电影', '人物', '机器人'],
+      labels: ['Movie', 'Person', 'Droid'],
+      linkTypes: ['', 'APPEARS_IN', 'SPEAKS_WITH']
     }
   },
   methods: {

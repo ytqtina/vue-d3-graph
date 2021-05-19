@@ -44,7 +44,7 @@ export default {
       input: '',
       mode: '1',
       // 后台请求到的json数据
-      data: require('../data/records.json'),
+      data: require('../data/records1.json'),
       results: []
     }
   },
@@ -58,7 +58,7 @@ export default {
       if (this.data.length <= 20) {
         this.data = require('../data/top5.json')
       } else {
-        this.data = require('../data/records.json')
+        this.data = require('../data/records1.json')
       }
       this.$emit('getData', this.data)
     },
